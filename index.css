@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Inicio de la Página */
+#page header #cabecera {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+#page header #cabecera h1 {
+    padding-top: 2vh;
+    font-size: 12vw;
+}
+#page header #cabecera img {
+    width: 18.74vw;
+}
+#page header #cabecera h2 {
+    padding-top: 5vw;
+    font-size: 2.3vw;
+}
+/* ------------------------------- */
+/* Secciones y Nav */
+#page nav, #page section {
+    margin: 0 auto;
+}
+#page section {
+    padding-bottom: 0.5vw;
+}
+#page .secStripped {
+    background-color: #5dbeec;
+}
+#page #secExcep {
+    padding-bottom: 0;
+}
+/* ------------------------------- */
+/* Carousel */
+#page section #alcoholCarousel, #page section #alcoholCarousel img {
+    height: 100vh;
+}
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: block !important;
+}
+/* ------------------------------- */
+/* Título */
+#page section .titulo {
+    padding: 4vw 0 0 4vw;
+    font-size: 4vw;
+}
+/* ------------------------------- */
+/* Sub-Título */
+#page section .subTitulo {
+    padding: 2.4vw 0 0 6.6vw;
+    font-size: 3.6vw;
+}
+/* ------------------------------- */
+/* Texto Normal */
+#page section .textoNormal {
+    padding: 2vw 4vw 0 4vw;
+    font-size: 1.8vw;
+}
+/* ------------------------------- */
+/* Listas dentro de section */
+#page section ol {
+    padding: 0 4vw 0 8vw;
+    font-size: 1.8vw;
+}
+#page section ul {
+    padding: 1vw 4vw 0 8vw;
+    font-size: 1.8vw;
+}
+#page section ol li, #page section ul li {
+    padding: 0 0 1vw 0;
+}
+/* ------------------------------- */
+/* Formulario de contacto */
+#formularioContacto h1 {
+    padding: 4vw 0 1.6vw 0;
+    text-align: center;
+    font-size: 4vw;
+}
+#formularioContacto #botonEnviar {
+    padding-left: 6.6vw;
+}
+/* ------------------------------- */
+#page .colorAmarillo {
+    background-color: #ffff9e;
+}
+/* Jumbotron Recomendación */
+#page .recomendacion {
+    font-size: 4.4vw;
+    font-weight: normal;
+}
+/* ------------------------------- */
+/* Top de Bebidas Alcohólicas */
+#page .topBebidas {
+    display: block;
+    width: 86%;
+    padding-left: 2vw;
+    margin: 2vw auto;
+}
+#page .ultimo {
+    width: 60%;
+    margin: 0 auto;
+}
+#page .card {
+    margin-top: 2vw;
+}
+/* ------------------------------- */
+/* Footer */
+#page footer {
+    padding: 1.6vw 0;
+}
+/* ------------------------------- */
+@media only screen and (max-width: 500px) {
+    #page header #cabecera {
+        height: 84vh;
+    }
+    #page header #cabecera h1 {
+        font-size: 20vw;
+    }
+    #page header #cabecera img {
+        padding-top: 8vw;
+        width: 48vw;
+    }
+    #page header #cabecera h2 {
+        padding-top: 18vw;
+        font-size: 6.6vw;
+    }
+    #page section #alcoholCarousel, #page section #alcoholCarousel img {
+        height: 40vh;
+    }
+    #page section .titulo {
+        padding: 8vw 0 0 6vw;
+        font-size: 10vw;
+    }
+    #page section .subTitulo {
+        padding: 4vw 0 0 10vw;
+        font-size: 8.6vw;
+    }
+    #page section .textoNormal {
+        padding: 3vw 6vw;
+        font-size: 5.6vw;
+    }
+    #page section ol {
+        padding: 0 6vw 0 14vw;
+        font-size: 5.6vw;
+    }
+    #page section ul {
+        padding: 4vw 6vw 0 14vw;
+        font-size: 5.6vw;
+    }
+    #page section ol li, #page section ul li {
+        padding: 0 0 3vw 0;
+    }
+    #page .ultimo {
+        width: 100%;
+    }
+    #page #formularioContacto h1 {
+        padding: 10vw 0 3vw 0;
+        font-size: 10vw;
+    }
+    #page #formularioContacto #botonEnviar {
+        padding-left: 0;
+    }
+    #page footer {
+        padding: 5vw 0;
+    }
+    #page footer div iframe {
+        width: 250px;
+        height: 300px;
+    }
+    #page .jumbotron {
+        margin-left: -8vw;
+    }
+    #page .recomendacion {
+        font-size: 11vw;
+    }
+    .navbar-collapse {
+        max-height: 100vh;
+        overflow-y: scroll;
+    }
+}
